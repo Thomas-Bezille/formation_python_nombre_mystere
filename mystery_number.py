@@ -24,3 +24,6 @@ while True:
         print(f"Le nombre mystère est plus petit que {try_nbr}.")
         life -= 1
         print(f"Il vous reste {life} essais.")
+    elif int(try_nbr) == NBR_MYSTERY:
+        print(f"Bravo! Le nombre mystère est bien {NBR_MYSTERY}.")
+        sys.exit("Fin du jeu.")
